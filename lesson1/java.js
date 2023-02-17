@@ -1,4 +1,4 @@
-// "use strict";
+"use strict";
 // var number = 15
 // var number2 = 30
 // // var randomNumber = prompt("Raqam yozing")
@@ -28,12 +28,9 @@
 // console.log(eni);
 // console.log(boyi);
 
-
-
 // let number = prompt ("number enter")
 // let result = Math.pow(3,2)
 // alert(result);
-
 
 // let a=prompt('a somi kiriting');
 // let b=Math.PI('b somi kiriting');
@@ -49,22 +46,52 @@
 
 // let r=prompt('aylanani radiusini kiriting');
 
-
 // alert(Math.PI*r**2)
 
+// let telNumber = Number(prompt("enter number"));
+
+// if (telNumber % 3 === 0 && telNumber % 5 === 0) {
+//     console.log("fizzBazz");
+// }
+//  else if (telNumber % 5 === 0) {
+//     console.log("bazz");
+// } else if (telNumber % 3 === 0) {
+//     console.log("fizz");
+// }
+
+
+// let text = ""
+// if (telNumber % 3 === 0) {
+//     text = text + "fizz"
+// }
+// if (telNumber % 5 === 0) {
+//     text = text + "bazz"
+// }
+// console.log(text);
+
+let num = prompt("SON: ")
 
 
 
 
 
+if (num % 2 == 0 && num < 0) {
+
+    console.log(`manfiy juft`);
 
 
+} else if (num % 2 == 0 && num > 0) {
+
+    console.log(`musbat juft`);
+}
 
 
+if (num % 2 == -1 && num < 0) {
+    console.log(`toq manfiy`);
+}
+else if (num % 2 == 1 && num > 0) {
+
+    console.log(`toq musbat`);
 
 
-
-
-
-
-
+} 
