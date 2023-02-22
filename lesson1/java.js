@@ -69,29 +69,81 @@
 // }
 // console.log(text);
 
-let num = prompt("SON: ")
+// let num = prompt("SON: ")
 
 
 
 
 
-if (num % 2 == 0 && num < 0) {
+// if (num % 2 == 0 && num < 0) {
 
-    console.log(`manfiy juft`);
+//     console.log(`manfiy juft`);
 
 
-} else if (num % 2 == 0 && num > 0) {
+// } else if (num % 2 == 0 && num > 0) {
 
-    console.log(`musbat juft`);
+//     console.log(`musbat juft`);
+// }
+
+
+// if (num % 2 == -1 && num < 0) {
+//     console.log(`toq manfiy`);
+// }
+// else if (num % 2 == 1 && num > 0) {
+
+//     console.log(`toq musbat`);
+
+
+// } 
+
+// add(11,12);
+// function GetData(a) {
+//     console.log("message:" + a);
+// }
+// GetData("Assalomu Aleykum");
+// GetData("Va aleykum assalom");
+
+// let a = +prompt(`a=`)
+// let b = +prompt(`b=`)
+// function add(num1, num2) {
+//     console.log(num1 + num2)
+// }
+// add(34,56);
+
+
+// declaration function
+
+// function funcName(arg1, arg2, arg3) {
+// console.log(arg1);
+// }
+// funcName("salom")
+// 
+
+// express function  es5
+// const funcName = function (arg1) {
+//     console.log(arg1);
+// }
+// funcName("salom")
+
+// arrow function es6
+// const funcName = (arg1) => {
+//     console.log(arg1);
+// }
+// funcName("salom")
+let num = +prompt("n=")
+let juft =0;
+let toq= 0
+
+for (let i = 0; i <= num ; i++) {
+
+    if(i%2===0 ){
+        juft=juft+1
+
+    }else{
+        
+        toq=toq+1
+    }
+    
 }
-
-
-if (num % 2 == -1 && num < 0) {
-    console.log(`toq manfiy`);
-}
-else if (num % 2 == 1 && num > 0) {
-
-    console.log(`toq musbat`);
-
-
-} 
+console.log(`juft sonlar: ${juft}`);
+console.log(`toq sonlar: ${toq}`);
