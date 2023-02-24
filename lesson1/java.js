@@ -130,20 +130,35 @@
 //     console.log(arg1);
 // }
 // funcName("salom")
-let num = +prompt("n=")
-let juft =0;
-let toq= 0
+// let num = +prompt("n=")
+// let juft =0;
+// let toq= 0
 
-for (let i = 0; i <= num ; i++) {
+// for (let i = 0; i <= num ; i++) {
 
-    if(i%2===0 ){
-        juft=juft+1
+//     if(i%2===0 ){
+//         juft=juft+1
 
-    }else{
-        
-        toq=toq+1
-    }
-    
+//     }else{
+
+//         toq=toq+1
+//     }
+
+// }
+// console.log(`juft sonlar: ${juft}`);
+// console.log(`toq sonlar: ${toq}`);
+
+
+
+
+
+let a = {
+    name: "Ahmad",
+    age: 25,
+    address: "tashkent",
 }
-console.log(`juft sonlar: ${juft}`);
-console.log(`toq sonlar: ${toq}`);
+let newArray = []
+
+for (let key in a) {
+    newArray.push([key, a[key]])
+}
